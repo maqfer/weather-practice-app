@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Прогноз погоды</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="header__title">Прогноз погоды</h1>
+      <p class="header__subtitle">Узнайте погоду в любом городе мира</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="search">
+        <form class="search__form" id="weatherForm">
+          <input 
+            type="text" 
+            class="search__input" 
+            id="cityInput" 
+            placeholder="Введите название города" 
+            autocomplete="off"
+            autofocus
+          >
+          <button type="submit" class="search__button">Поиск</button>
+        </form>
+        <div class="search__error" id="errorMessage"></div>
+      </div>
+
+      <div class="weather">
+        <div class="weather__cards" id="weatherCards"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">Учебный проект для практики в колледже</p>
+      <p class="footer__text">Данные предоставлены OpenWeatherMap API</p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
