@@ -32,8 +32,8 @@
 
 ## Примечание
 
-В проекте используется временный тестовый API-ключ OpenWeatherMap для упрощения проверки. В реальном проекте необходимо получить собственный ключ на сайте OpenWeatherMap(https://openweathermap.org/api).
+В проекте используется временный тестовый API-ключ OpenWeatherMap для упрощения проверки. В реальном проекте необходимо получить собственный ключ на сайте [OpenWeatherMap](https://openweathermap.org/api).
 
 ## Источники
 
-Проект выбран из каталога: Project Based Learning - Weather App(https://github.com/practical-tutorials/project-based-learning#weather-app)
+Проект выбран из каталога: [Project Based Learning - Weather App](https://github.com/practical-tutorials/project-based-learning#weather-app)
